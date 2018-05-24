@@ -1,1 +1,20 @@
-h1 { color: red; text-align: center; }
+.top {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-color: #F0CA31;
+}
+
+.middle {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-color: red;
+}
+
+.bottom {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-color: green;
+}
