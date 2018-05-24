@@ -3,6 +3,7 @@
 	height: 50px;
 	margin: 5px;
 	float: left;
+	border-radius: 10px;
 	background-color: #F0CA31;
 }
 
@@ -11,6 +12,7 @@
 	height: 50px;
 	margin: 5px;
 	float: left;
+	border-radius: 10px;
 	background-color: red;
 }
 
@@ -19,5 +21,6 @@
 	height: 50px;
 	margin: 5px;
 	float: left;
+	border-radius: 10px;
 	background-color: green;
 }
