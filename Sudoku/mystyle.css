@@ -1,36 +1,7 @@
-.top {
-	width: 30%;
-	height: 30%;
-	min-width: auto;
-	min-height: 300px;
-	max-width: auto;
-	max-height: auto;
-	margin: 3px;
-	border-radius: 20px;
+.adaption div {
 	background-color: #F0CA31;
-	display: block;
-}
-
-.first {
-	width: auto;
-	height: 10%;
-	margin: 0 auto;
-	vertical-align: middle;
-	display: flex;
-}
-
-.second {
-	width: auto;
-	height: 10%;
-	margin: 0 auto;
-	vertical-align: middle;
-	display: flex;
-}
-
-.third {
-	width: auto;
-	height: 10%;
-	margin: 0 auto;
-	vertical-align: middle;
-	display: flex;
+	padding: 5%;
+	margin: 0.1%;
+	border-radius: 20%;
+	display: inline-block;
 }
