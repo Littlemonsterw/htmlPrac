@@ -1,7 +1,12 @@
 .adaption div {
 	background-color: #F0CA31;
-	padding: 5%;
-	margin: 0.1%;
+	padding: 12%;
+	margin: 3px;
 	border-radius: 20%;
 	display: inline-block;
+}
+
+.adaption {
+	display: -webkit-flex;  
+	justify-content: center;
 }
