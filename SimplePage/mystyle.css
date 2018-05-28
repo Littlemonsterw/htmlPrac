@@ -3,13 +3,53 @@ body {
 }
 
 .head {
-	margin: 0 auto;
+	margin: 8rem auto 1rem;
 	width: 120px;
 	height: 55px;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .bottom {
-	margin: 30% auto;
+	margin: 10rem auto;
 	width: 50px;
 	height: 50px;
+}
+
+.left {
+	position: absolute;
+	left: 20%;
+	width: 3.5rem;
+}
+
+.right {
+	position: absolute;
+	right: 20%;
+	width: 3.5rem;
+}
+
+.text {
+	color: white;
+	text-align: center;
+	font-size: 1rem;
+	margin: 3rem;
+	position: relative;
+	top: 2rem;
+}
+
+.text-left {
+	color: white;
+	font-size: 1.05rem;
+	position: relative;
+	left: unset;
+}
+
+.text-right {
+	color: white;
+	font-size: 1rem;
+	position: relative;
+	right: 20%;
 }
