@@ -40,26 +40,50 @@ a:link, a:visited {
 img {
 	width: 25px;
 	height: 25px;
-	padding: 1%;
-	border-right: 2px solid;
-	border-right-color: #E6E6E6;
+	position: relative;
+	top: 18px;
+	left: 16px;
 }
 
 .content {
 	width: 100%;
 	height: 60px;
 	background-color: white;
-	margin: 1% 0 0 0;
+	margin: 12px 0 0 0;
 }
 
 .content input {
 	width: 80%;
-	height: 55px;
+	height: 38px;
 	font-size: 0.75em;
-	border: 0px;
-	position: absolute;
+	position: relative;
+	top: 11px;
+	left: 25px;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #E6E6E6;
+	text-indent: 20px;
 }
 
 input::placeholder {
 	color: #AAAAAA;
+}
+
+.button input {
+	width: 100%;
+	height: 65px;
+	background-color: #5AC0CE;
+	margin: 15px auto;
+	font-size: 1.2em;
+	color: white;
+	letter-spacing: 3em;
+	padding-left: 3.3em;
+}
+
+.footer a {
+	float: right;
+	color: #5AC0CE;
+	padding-right: 1.3em;
 }
