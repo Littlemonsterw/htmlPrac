@@ -63,24 +63,39 @@ body {
 .img {
 	width: 95%;
 	height: 60px;
-	border: 1px solid #5AC0CE;
+	border: 1px solid #E6E6E6;
 	text-align: center;
 }
 
 .title {
 	width: 95%;
 	height: 60px;
-	border: 1px solid #5AC0CE;
+	border: 1px solid #E6E6E6;
 }
 
 .abstract {
 	width: 95%;
 	height: 60px;
-	border: 1px solid #5AC0CE;
+	border: 1px solid #E6E6E6;
 }
 
 .content {
 	width: 95%;
 	height: 60px;
-	border: 1px solid #5AC0CE;
+	border: 1px solid #E6E6E6;
+}
+
+.content label {
+	color: #AAAAAA;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.content input {
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #E6E6E6;
+	text-indent: 20px;
 }
