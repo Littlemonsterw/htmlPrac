@@ -28,7 +28,7 @@ body {
 
 .footer {
 	width: 100%;
-	height: 8.5%;
+	height: 10%;
 	position: fixed;
 	bottom: 0;
 	display: inline-flex;
@@ -41,7 +41,7 @@ body {
 	background-color: white;
 	color: #5AC0CE;
 	border: 3px solid #5AC0CE;
-	font-size: 1.3em;
+	font-size: 2vw;
 	letter-spacing: 0.1em;
 }
 
@@ -52,13 +52,13 @@ body {
 	background-color: #5AC0CE;
 	color: white;
 	border: 3px solid #5AC0CE;
-	font-size: 1.3em;
+	font-size: 2vw;
 	letter-spacing: 0.1em;
 }
 
 .main {
 	width: 100%;
-	height: 85%;
+	height: 83%;
 	background-color: white;
 	position: fixed;
 	overflow: scroll;
@@ -72,6 +72,21 @@ body {
 	background-image: url('./img/background.jpg');
 	background-size: cover;
 	display: flex;
+}
+
+.icon {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 5em;
+	left: 0.5em;
+}
+
+.icon img {
+	width: 90%;
+	height: 95%;
+	position: relative;
+	left: 0.6em;
 }
 
 .title {
@@ -144,15 +159,18 @@ label {
 
 .introduction {
 	width: 100%;
-	height: 6em;
+	height: 4.5em;
 	border: 2px solid #E6E6E6;
-	border-top: none;
 	border-left: none;
+	border-top: none;
 	position: relative;
 	left: 1em;
 }
 
-p {
-	width: 50%;
-	margin: 0 auto 0 8.5em;
+table {
+	width: 55vw;
+	height: 4.5em;
+	position: relative;
+	left: 8em;
+	bottom: 1.3em;
 }
