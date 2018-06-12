@@ -69,7 +69,7 @@ body {
 	width: 100%;
 	height: 30%;
 	color: white;
-	background-image: url('./img/background.jpg');
+	background-image: url('../imgs/home_img/background.jpg');
 	background-size: cover;
 	display: flex;
 }
