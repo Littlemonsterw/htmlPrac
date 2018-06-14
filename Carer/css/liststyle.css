@@ -1,18 +1,8 @@
 body {
-	margin: 0;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
-.header{
-	width: 100%;
-	height: 5em;
+.navbar {
 	background-color: #5AC0CE;
-	display: flex;
-}
-
-.footer {
-	width: 100%;
-	height: 5em;
-	background-color: #5AC0CE;
-	position: fixed;
-	bottom: 0;
 }
