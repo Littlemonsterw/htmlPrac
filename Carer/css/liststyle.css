@@ -5,6 +5,7 @@ body {
 
 .navbar-header {
 	background-color: #5EC0CE;
+	margin-bottom: 0 !important;
 }
 
 .buttons {
@@ -27,4 +28,8 @@ body {
 	font-size: 1.25em !important;
 	position: relative;
 	right: 0.3em;
+}
+
+.btngroup {
+	color: red;
 }
