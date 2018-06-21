@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="utf-8">
+	<title>css-sprites</title>
+
+<style type="text/css">
+body { background-color: pink; }
+
+.bg-people {
+    width: 42px; height: 41px;
+    background: url('css_sprites.png') -186px -10px;
+}
+
+.bg-write {
+    width: 40px; height: 41px;
+    background: url('css_sprites.png') -186px -71px;
+}
+
+.bg-location {
+    width: 19px; height: 23px;
+    background: url('css_sprites.png') -124px -74px;
+}
+
+.bg-home {
+    width: 46px; height: 40px;
+    background: url('css_sprites.png') -10px -124px;
+}
+
+.bg-map {
+    width: 42px; height: 44px;
+    background: url('css_sprites.png') -124px -10px;
+}
+
+.bg-circle {
+    width: 94px; height: 94px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-date {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -186px -132px;
+}
+
+.bg-right {
+    width: 19px; height: 33px;
+    background: url('css_sprites.png') -76px -124px;
+}
+
+.re {
+	width: 7px;
+    height: 7px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+
+</style>
+</head>
+<body>
+     <div class="bg-location"></div>
+     <div class="bg-people"></div>
+     <div class="bg-write"></div>
+     <div class="bg-map"></div>
+     <div class="bg-home"></div>
+     <div class="bg-date"></div>
+     <div class="bg-right"></div>
+     <div class="bg-circle">
+     	<div class="bg-write"></div>
+     </div>
+     <div class="re"></div>
+</body>
+</html>
