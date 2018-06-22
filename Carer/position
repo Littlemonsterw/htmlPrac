@@ -27,3 +27,40 @@
     width: 42px; height: 41px;
     background: url('css_sprites.png') -10px -74px;
 }
+
+
+
+
+
+**********************
+
+
+.bg-date {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -126px -10px;
+}
+
+.bg-home_s {
+    width: 38px; height: 35px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-location {
+    width: 19px; height: 23px;
+    background: url('css_sprites.png') -126px -54px;
+}
+
+.bg-map_s {
+    width: 32px; height: 34px;
+    background: url('css_sprites.png') -10px -65px;
+}
+
+.bg-people_s {
+    width: 36px; height: 35px;
+    background: url('css_sprites.png') -70px -10px;
+}
+
+.bg-write {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -62px -65px;
+}

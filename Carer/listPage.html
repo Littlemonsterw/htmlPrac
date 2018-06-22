@@ -9,14 +9,13 @@
 </head>
 <body>
     <nav class="navbar navbar-header navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+        <div class="container" style="padding-top: 0.5em">
             <div class="buttons">
                 <button type="button" class="btn btn1 active">找雇主</button>
                 <button type="button" class="btn btn2">找护工</button>
             </div>
         </div>
-
-
+        <button type="button" class="btn-map"></button>
     </nav>
 
     <div class="main">
@@ -59,7 +58,29 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation"></nav>
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" style="height: 70px;">
+        <table style="width: 100%; position: fixed; bottom: 0.3em;">
+            <tr>
+                <td>
+                    <div class="bg-home">
+                        <button type="button" class="btn-home"></button>
+                        <span>首页</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="bg-write">
+                        <button type="button" class="btn-write"></button>
+                    </div>
+                </td>
+                <td>
+                    <div class="bg-people">
+                        <button type="button" class="btn-people"></button>
+                        <span>我的</span>
+                    </div>
+                </td>
+            </tr>
+        </table>   
+    </nav>
 
     <!-- jquery and bootstrap -->
     <script src = "js/jquery.min.js"></script>

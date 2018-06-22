@@ -4,13 +4,13 @@ body {
 }
 
 .navbar-header {
+	height: 50px;
 	background-color: #5EC0CE;
 	margin-bottom: 0 !important;
 }
 
 .buttons {
 	width: 12em;
-	padding-top: 5px;
 	margin: 0 auto;
 }
 
@@ -28,4 +28,59 @@ body {
 	font-size: 1.2em !important;
 	position: relative;
 	right: 0.3em;
+}
+
+.btn-map {
+	border: 1px #5EC0CE;
+    width: 32px; height: 34px;
+    background: url('../imgs/list_img/sprites.png') -10px -65px;
+    float: right;
+    position: relative;
+    bottom: 2.6em;
+    right: 1em;
+}
+
+.bg-home {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.bg-write {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 5em;
+	background-color: #5EC0CE;
+}
+
+.bg-people {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.btn-home {
+	border: 1px #5EC0CE;
+	width: 38px; height: 35px;
+    background: url('../imgs/list_img/sprites.png') -10px -10px;
+}
+
+.btn-write {
+	border: 1px #5EC0CE;
+    width: 30px; height: 30px;
+    background: url('../imgs/list_img/sprites.png') -62px -65px;
+    position: relative;
+    top: 1em;
+    left: 0.16em;
+}
+
+.btn-people {
+	border: 1px #5EC0CE;
+	width: 36px; height: 35px;
+    background: url('../imgs/list_img/sprites.png') -70px -10px;
+}
+
+td {
+	/*border: 1px solid;*/
+	width: 33.33%;
+	text-align: center;
 }
