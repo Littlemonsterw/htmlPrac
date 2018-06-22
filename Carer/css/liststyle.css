@@ -43,6 +43,7 @@ body {
 .bg-home {
 	width: 40px;
 	margin: 0 auto;
+	color: #5EC0CE;
 }
 
 .bg-write {
@@ -56,6 +57,7 @@ body {
 .bg-people {
 	width: 40px;
 	margin: 0 auto;
+	color: gray;
 }
 
 .btn-home {
@@ -79,8 +81,22 @@ body {
     background: url('../imgs/list_img/sprites.png') -70px -10px;
 }
 
-td {
+.navbar-footer td {
 	/*border: 1px solid;*/
 	width: 33.33%;
 	text-align: center;
+}
+
+.bg-date {
+	width: 24px; height: 24px;
+    background: url('../imgs/list_img/sprites.png') -126px -10px;
+}
+
+.bg-location {
+	width: 19px; height: 23px;
+    background: url('../imgs/list_img/sprites.png') -126px -54px;
+}
+
+ul {
+	list-style: none; 
 }
