@@ -90,6 +90,9 @@ body {
 .bg-date {
 	width: 24px; height: 24px;
     background: url('../imgs/list_img/sprites.png') -126px -10px;
+    position: relative;
+    top: 1.5em;
+    right: 2.6em;
 }
 
 .bg-location {
