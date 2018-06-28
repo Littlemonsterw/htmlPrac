@@ -40,6 +40,46 @@ body {
     right: 1em;
 }
 
+.main-btn-group {
+	width: 100% !important;
+	height: 35px;
+	position: fixed !important;
+}
+
+.list-btn-group {
+	width: 33.33%;
+}
+
+.list-btn1 {
+	width: 100%;
+	border-radius: 0 !important;
+	border-left: none !important; 
+	color: #B8B8B9 !important;
+}
+
+.list-btn2 {
+	width: 100%;
+	border-radius: 0 !important;
+	color: #B8B8B9 !important;
+}
+
+.list-btn3 {
+	width: 100%;
+	border-radius: 0 !important;
+	border-right: none !important;
+	color: #B8B8B9 !important;
+}
+
+.caret { 
+	color: #B8B8B9; 
+}
+
+table {
+	width: 100%; 
+	position: fixed; 
+	bottom: 0.3em;
+}
+
 .bg-home {
 	width: 40px;
 	margin: 0 auto;
@@ -81,6 +121,8 @@ body {
     background: url('../imgs/list_img/sprites.png') -70px -10px;
 }
 
+.navbar-footer { height: 70px !important; }
+
 .navbar-footer td {
 	/*border: 1px solid;*/
 	width: 33.33%;
@@ -106,5 +148,57 @@ ul {
 	list-style: none; 
 	padding-left: 55px;
 	padding-right: 15px;
-	border-bottom: 1px solid;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 0 !important;
 }
+
+.price {
+	color: red; 
+	float: right; 
+	position: relative; 
+	bottom: 2.1em;
+	right: 1.5em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.right {
+	width: 1.2rem;
+    height: 1.2rem;
+    border-top: 2px solid #5EC0CE;
+    border-right: 2px solid #5EC0CE;
+    transform: rotate(45deg);
+    float: right;
+    position: relative;
+    bottom: 1.8em;
+    left: 4.5em;
+}
+
+.location {
+	position: relative; 
+	bottom: 1.5em;
+	color: #B8B8B9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.servce-date {
+	color: #B8B8B9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.work-date {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.container-fluid {
+	padding: 35px 0 !important;
+	overflow-x: hidden;
+}
+
