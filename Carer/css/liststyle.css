@@ -98,8 +98,13 @@ body {
 .bg-location {
 	width: 19px; height: 23px;
     background: url('../imgs/list_img/sprites.png') -126px -54px;
+    position: relative;
+    right: 2.5em;
 }
 
 ul {
 	list-style: none; 
+	padding-left: 55px;
+	padding-right: 15px;
+	border-bottom: 1px solid;
 }
