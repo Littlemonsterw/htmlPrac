@@ -158,9 +158,6 @@ ul {
 	position: relative; 
 	bottom: 2.1em;
 	right: 1.5em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 }
 
 .right {
