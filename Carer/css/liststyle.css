@@ -74,30 +74,24 @@ body {
 	color: #B8B8B9; 
 }
 
-table {
-	width: 100%; 
-	position: fixed; 
-	bottom: 0.3em;
-}
-
 .bg-home {
 	width: 40px;
-	margin: 0 auto;
 	color: #5EC0CE;
+	margin: 0 auto;
 }
 
 .bg-write {
-	width: 60px;
-	height: 60px;
-	margin: 0 auto;
+	width: 58px;
+	height: 58px;
 	border-radius: 5em;
 	background-color: #5EC0CE;
+	margin: 0 auto;
 }
 
 .bg-people {
 	width: 40px;
-	margin: 0 auto;
 	color: gray;
+	margin: 0 auto;
 }
 
 .btn-home {
@@ -112,7 +106,7 @@ table {
     background: url('../imgs/list_img/sprites.png') -62px -65px;
     position: relative;
     top: 1em;
-    left: 0.16em;
+    left: 1.15em;
 }
 
 .btn-people {
@@ -121,43 +115,43 @@ table {
     background: url('../imgs/list_img/sprites.png') -70px -10px;
 }
 
+.home-text {
+	position: relative;
+	left: 0.4em;
+}
+
+.people-text {
+	position: relative;
+	left: 0.35em;
+}
+
 .navbar-footer { height: 70px !important; }
 
-.navbar-footer td {
-	/*border: 1px solid;*/
-	width: 33.33%;
-	text-align: center;
+.col-xs-4 {
+	top: 0.5em;
 }
 
 .bg-date {
 	width: 24px; height: 24px;
     background: url('../imgs/list_img/sprites.png') -126px -10px;
     position: relative;
-    top: 1.5em;
-    right: 2.6em;
+    top: 1.3em;
+    right: 0.2em;
 }
 
 .bg-location {
 	width: 19px; height: 23px;
     background: url('../imgs/list_img/sprites.png') -126px -54px;
     position: relative;
-    right: 2.5em;
-}
-
-ul {
-	list-style: none; 
-	padding-left: 55px;
-	padding-right: 15px;
-	border-bottom: 1px solid #CCCCCC;
-	margin-bottom: 0 !important;
+    bottom: 0.15em;
 }
 
 .price {
 	color: red; 
 	float: right; 
 	position: relative; 
-	bottom: 2.1em;
-	right: 1.5em;
+	bottom: 2em;
+	right: 1em;
 }
 
 .right {
@@ -168,7 +162,7 @@ ul {
     transform: rotate(45deg);
     float: right;
     position: relative;
-    bottom: 1.8em;
+    bottom: 1.75em;
     left: 4.5em;
 }
 
@@ -179,6 +173,8 @@ ul {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	position: relative;
+	left: 2em;
 }
 
 .servce-date {
@@ -186,12 +182,16 @@ ul {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	position: relative;
+	left: 2em;
 }
 
 .work-date {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	position: relative;
+	left: 2em;
 }
 
 .container-fluid {
@@ -199,3 +199,15 @@ ul {
 	overflow-x: hidden;
 }
 
+.info {
+	font-size: 1.5rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.dropdown-menu {
+	width: 100%;
+}
+
+li {
+	text-align: center;
+}
