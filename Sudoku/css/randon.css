@@ -1,0 +1,26 @@
+.row {
+	width: 31em;
+	margin: 0 auto !important;
+}
+
+.block {
+	background-color: #f0ad4e;
+	/*padding: 15%;*/
+	width: 10em;
+	height: 10em;
+	margin: 0.5%;
+	border-radius: 20%;
+	float: left;
+}
+
+.btn {
+	background-color: unset !important;
+	color: #f0ad4e !important;
+	width: 100%;
+	margin: 1em 0;
+}
+
+.btn:hover {
+	background-color: #f0ad4e !important;
+	color: #fff !important;
+}
