@@ -1,6 +1,6 @@
 .row {
 	width: 31em;
-	margin: 0 auto !important;
+	margin: 0 auto;
 }
 
 .block {
@@ -14,13 +14,8 @@
 }
 
 .btn {
-	background-color: unset !important;
-	color: #f0ad4e !important;
+	background-color: unset;
+	color: #f0ad4e;
 	width: 100%;
-	margin: 1em 0;
-}
-
-.btn:hover {
-	background-color: #f0ad4e !important;
-	color: #fff !important;
+	margin: 0.5em 0;
 }
