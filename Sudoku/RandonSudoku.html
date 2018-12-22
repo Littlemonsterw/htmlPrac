@@ -4,7 +4,6 @@
 	<title>Show Sudoku</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/randon.css">
-    <script src="./js/randon.js"></script>
 </head>
 <body>
   	<div class="container">
@@ -24,9 +23,10 @@
             <div class="block"></div>   
         </div>
         <div class="row">
-            <button type="button" class="btn btn-warning btn-lg" onmouseover="mOver(this)" onmouseout="mOut(this)">开始闪</button>
-            <button type="button" class="btn btn-warning btn-lg" onmouseover="mOver(this)" onmouseout="mOut(this)">结束闪</button>
+            <button type="button" class="btn btn-warning btn-lg" ">开始闪</button>
+            <button type="button" class="btn btn-warning btn-lg" onclick="stop()">结束闪</button>
         </div>
     </div>
 </body>
+    <script src="./js/randon.js"></script>
 </html>
