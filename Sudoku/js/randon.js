@@ -52,7 +52,7 @@ function getRandomClass() {
 btnStart.onclick=function() {
 	getRandomClass();
 	clearInterval(intervalID);
-	intervalID = setInterval(getRandomClass,2000);	
+	intervalID = setInterval(getRandomClass,1000);	
 }
 
 //重置
